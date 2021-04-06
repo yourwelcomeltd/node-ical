@@ -1,6 +1,6 @@
 {
   "name": "node-ical",
-  "version": "0.12.9",
+  "version": "0.13.0",
   "main": "node-ical.js",
   "types": "node-ical.d.ts",
   "description": "NodeJS class for parsing iCalendar/ICS files",
@@ -18,18 +18,18 @@
     "url": "git://github.com/jens-maus/node-ical.git"
   },
   "dependencies": {
+    "node-fetch": "^2.6.1",
     "moment-timezone": "^0.5.31",
-    "request": "^2.88.2",
     "rrule": "2.6.8",
     "uuid": "^8.3.1"
   },
   "devDependencies": {
-    "@types/request": "^2.48.3",
+    "@types/node-fetch": "^2.5.8",
     "diff": ">=3.5.0",
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.18.2",
-    "underscore": "1.12.0",
+    "underscore": "1.12.1",
     "vows": "^0.8.2",
     "xo": "^0.38.2",
     "pre-commit": "^1.2.2",
